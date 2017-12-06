@@ -8,9 +8,12 @@ public class Testing20171206Test {
     @Test
     public void myfunction() throws Exception {
         Testing20171206 object = new Testing20171206();
-
-        object.Myfunction(0);
-        object.Myfunction(11);
+        boolean a;
+        a = object.Myfunction(0);
+        assertEquals(a,false);
+        boolean b;
+        b  = object.Myfunction(11);
+        assertEquals(b,true);
     }
 
 }
