@@ -10,7 +10,7 @@ public class Testing20171206Test {
         Testing20171206 object = new Testing20171206();
 
         object.Myfunction(0);
-        object.Myfunction(12);
+        object.Myfunction(11);
     }
 
 }
